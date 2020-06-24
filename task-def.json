@@ -1,10 +1,10 @@
 {
-    "family": "sample-fargate", 
+    "family": "first-run-task-definition", 
     "executionRoleArn": "arn:aws:iam::336795466048:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc", 
     "containerDefinitions": [
         {
-            "name": "fargate-app", 
+            "name": "sample-app", 
             "image": "httpd:2.4", 
             "portMappings": [
                 {
